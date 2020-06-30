@@ -1,9 +1,23 @@
 .first-header{
     background-color: rgb(43, 91, 155);
     color: white;
-
 }
+
 
 body{
     text-align: center;
+}
+
+.submit{
+ background-color: green;
+ padding-left: 100px;
+ padding-right: 100px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 20px;
+    
+}
+
+.required{
+text-align: right;
 }
