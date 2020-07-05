@@ -5,14 +5,17 @@
 .first-header{
     background-color: rgb(27, 65, 114);
     margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: white;
 }
 
-input{
-    margin: 20px;
-}
-
-
+.required{
+    text-align: right;
+    }
+    
 .gray-p{
     color: rgb(158, 158, 158);
 }
@@ -25,6 +28,7 @@ input{
 }
 .first-leg{
     text-align: left;
+    font-size: 30px;
 }
 
 .first-field{
@@ -35,10 +39,36 @@ input{
     border: hidden;
 }
 
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.spacing{
+    margin: 20px;
+    text-align: left;
+
+}
+
+.spacing-2{
+    margin: 15px;
+    text-align: left;
+}
+
 body {
     text-align: center;
     font-size: 20px;
 }
+
+.news{
+    text-align: left;
+}
+
+.news-form{
+    text-align: left;
+}
+
 
 .padding{
 padding-left: 15px;
@@ -48,21 +78,13 @@ padding-right: 15px;
 .submit{
  background-color: rgb(74, 202, 185);
  padding-left: 100px;
+ color: white;
  font-size: 30px;
  padding-right: 100px;
  padding-top: 20px;
  padding-bottom: 20px;
  margin-top: 20px;
-    
 }
-
-.required{
-text-align: right;
-}
-
-
-
-
 
 
 
