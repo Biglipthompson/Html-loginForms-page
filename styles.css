@@ -1,16 +1,54 @@
+
+*{
+    font-family: 'Dosis', sans-serif;
+}
 .first-header{
-    background-color: rgb(43, 91, 155);
+    background-color: rgb(27, 65, 114);
+    margin: 0 auto;
     color: white;
 }
 
+input{
+    margin: 20px;
+}
 
-body{
+
+.gray-p{
+    color: rgb(158, 158, 158);
+}
+
+.first-hr{
+    border: solid  rgb(27, 65, 114) 4px;
+}
+.second-hr{
+    border: solid rgb(27, 65, 114) 2px;
+}
+.first-leg{
+    text-align: left;
+}
+
+.first-field{
+    text-align: left;
+    border: hidden;
+}
+.second-field{
+    border: hidden;
+}
+
+body {
     text-align: center;
+    font-size: 20px;
+}
+
+.padding{
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .submit{
- background-color: rgb(105, 183, 185);
+ background-color: rgb(74, 202, 185);
  padding-left: 100px;
+ font-size: 30px;
  padding-right: 100px;
  padding-top: 20px;
  padding-bottom: 20px;
@@ -20,4 +58,20 @@ body{
 
 .required{
 text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+    
 }
