@@ -1,6 +1,7 @@
 
 *{
     font-family: 'Dosis', sans-serif;
+   
 }
 .first-header{
     background-color: rgb(27, 65, 114);
@@ -10,6 +11,10 @@
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
+}
+
+.h2{
+    color:  rgb(27, 65, 114);
 }
 
 .required{
@@ -37,12 +42,22 @@
 }
 .second-field{
     border: hidden;
+    text-align: left;
 }
 
 input{
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    background-color: rgb(230, 228, 228);
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(230, 228, 228);
+
 }
 
 .spacing{
