@@ -102,6 +102,18 @@ padding-left: 15px;
 padding-right: 15px;
 }
 
+.text{
+    width: 80%;
+    padding-top: 100px;
+    background-color:  rgb(230, 228, 228);
+}
+
+.closing-p{
+    color: rgb(158, 158, 158);
+    text-align: left;
+}
+
+
 .submit{
  background-color: rgb(74, 202, 185);
  padding-left: 100px;
@@ -110,6 +122,8 @@ padding-right: 15px;
  padding-right: 100px;
  padding-top: 20px;
  padding-bottom: 20px;
+ border-radius: 8px;
+ width: 80%;
  margin-top: 20px;
 }
 
