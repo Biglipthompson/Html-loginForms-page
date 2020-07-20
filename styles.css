@@ -1,6 +1,7 @@
 
 *{
     font-family: 'Dosis', sans-serif;
+
    
 }
 .first-header{
@@ -19,8 +20,14 @@
 
 .required{
     text-align: right;
-    }
-    
+    } 
+
+input:focus,
+textarea:focus{
+    border-color: rgb(27, 65, 114);
+}
+
+
 .gray-p{
     color: rgb(158, 158, 158);
 }
@@ -98,8 +105,8 @@ body {
 
 
 .padding{
-padding-left: 15px;
-padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .text{
@@ -111,23 +118,24 @@ padding-right: 15px;
 .closing-p{
     color: rgb(158, 158, 158);
     text-align: left;
+    border-radius: 8px;
 }
 
 
 .submit{
- background-color: rgb(74, 202, 185);
- padding-left: 100px;
- color: white;
- font-size: 30px;
- padding-right: 100px;
- padding-top: 20px;
- padding-bottom: 20px;
- border-radius: 8px;
- width: 80%;
- margin-top: 20px;
+    background-color: rgb(74, 202, 185);
+    padding-left: 100px;
+    color: white;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin-top: 20px;
 }
 
-
+/* SELECTORS */
 
 
 
