@@ -34,9 +34,14 @@ textarea:focus{
 
 .first-hr{
     border: solid  rgb(27, 65, 114) 4px;
+
+    
+ 
 }
 .second-hr{
     border: solid rgb(27, 65, 114) 2px;
+  
+ 
 }
 .third-hr{
     border: solid black 2px;
@@ -126,6 +131,7 @@ body {
     background-color: rgb(74, 202, 185);
     padding-left: 100px;
     color: white;
+    box-shadow: 3px 3px 3px black;
     font-size: 30px;
     padding-right: 100px;
     padding-top: 20px;
@@ -133,6 +139,11 @@ body {
     border-radius: 8px;
     width: 80%;
     margin-top: 20px;
+}
+
+.other-t{
+text-align: left;
+
 }
 
 /* SELECTORS */
@@ -143,6 +154,12 @@ body {
 /* MEDIA QUERIES */
 
 @media (min-width: 768px){
+.spacing{
+display: hidden;
+
+    }
+
+
 
     
 }
