@@ -34,12 +34,12 @@ textarea:focus{
 
 .first-hr{
     border: solid  rgb(27, 65, 114) 4px;
+  
 
-    
- 
 }
 .second-hr{
     border: solid rgb(27, 65, 114) 2px;
+  
   
  
 }
@@ -55,6 +55,7 @@ textarea:focus{
 .first-field{
     text-align: left;
     border: hidden;
+    width: 100%;
 }
 .second-field{
     border: hidden;
@@ -73,7 +74,6 @@ select{
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(230, 228, 228);
-
 }
 
 
@@ -92,6 +92,11 @@ select{
 .spacing-2{
     margin: 10px;
     text-align: left;
+    width: 100%;
+}
+
+.lab{
+    padding-bottom: 10px;
 }
 
 body {
@@ -115,7 +120,7 @@ body {
 }
 
 .text{
-    width: 80%;
+    width: 100%;
     padding-top: 100px;
     background-color:  rgb(230, 228, 228);
 }
@@ -137,7 +142,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 8px;
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
 }
 
