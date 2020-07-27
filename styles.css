@@ -2,6 +2,7 @@
 *{
     font-family: 'Dosis', sans-serif;
 
+
    
 }
 .first-header{
@@ -27,7 +28,6 @@ textarea:focus{
     border-color: rgb(27, 65, 114);
 }
 
-
 .gray-p{
     color: rgb(158, 158, 158);
 }
@@ -35,13 +35,10 @@ textarea:focus{
 .first-hr{
     border: solid  rgb(27, 65, 114) 4px;
   
-
 }
 .second-hr{
     border: solid rgb(27, 65, 114) 2px;
   
-  
- 
 }
 .third-hr{
     border: solid black 2px;
@@ -55,23 +52,22 @@ textarea:focus{
 .first-field{
     text-align: left;
     border: hidden;
-    width: 100%;
+ 
 }
 .second-field{
     border: hidden;
     text-align: left;
+  
 }
 
 .top-half-inputs{
     width: 100%;
-    padding: 10px;
     border-radius: 5px;
     background-color: rgb(230, 228, 228);
 }
 
 select{
     width: 100%;
-    padding: 10px;
     border-radius: 5px;
     background-color: rgb(230, 228, 228);
 }
@@ -83,25 +79,10 @@ select{
     background-color: rgb(230, 228, 228);
 }
 
-.spacing{
-    margin: 20px;
-    text-align: left;
-
-}
-
-.spacing-2{
-    margin: 10px;
-    text-align: left;
-    width: 100%;
-}
-
-.lab{
-    padding-bottom: 10px;
-}
-
 body {
     text-align: center;
     font-size: 20px;
+
 }
 
 .news{
@@ -113,15 +94,10 @@ body {
     text-align: left;
 }
 
-
-.padding{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .text{
     width: 100%;
     padding-top: 100px;
+    margin-top: 5px;
     background-color:  rgb(230, 228, 228);
 }
 
@@ -130,7 +106,6 @@ body {
     text-align: left;
     border-radius: 8px;
 }
-
 
 .submit{
     background-color: rgb(74, 202, 185);
@@ -146,10 +121,7 @@ body {
     margin-top: 20px;
 }
 
-.other-t{
-text-align: left;
 
-}
 
 /* SELECTORS */
 
@@ -159,10 +131,8 @@ text-align: left;
 /* MEDIA QUERIES */
 
 @media (min-width: 768px){
-.spacing{
-display: hidden;
 
-    }
+}
 
 
 
