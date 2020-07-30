@@ -1,8 +1,7 @@
 
 *{
     font-family: 'Dosis', sans-serif;
-
-
+    box-sizing: border-box;
    
 }
 .first-header{
@@ -57,11 +56,14 @@ textarea:focus{
 .second-field{
     border: hidden;
     text-align: left;
-  
 }
 
 .top-half-inputs{
     width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     background-color: rgb(230, 228, 228);
 }
@@ -82,7 +84,7 @@ select{
 body {
     text-align: center;
     font-size: 20px;
-
+  
 }
 
 .news{
@@ -132,9 +134,7 @@ body {
 
 @media (min-width: 768px){
 
-}
 
 
-
-    
+   
 }
