@@ -18,6 +18,52 @@
     color:  rgb(27, 65, 114);
 }
 
+
+/* -------------------  FIELDSETS AND INPUT/LABELS---------- */
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: hidden;
+ 
+}
+
+.contact-info label {
+    margin-bottom: 10px;
+}
+
+.contact-info input{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-info .flex-pair{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter{
+    border: hidden;
+    text-align: left; 
+}
+
+.flex-pair{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-half-inputs{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(230, 228, 228);
+}
+
+/* -------------END OF FIELDSETS ANS LABLES/INPUTS----------------- */
+
 .required{
     text-align: right;
     } 
@@ -31,6 +77,9 @@ textarea:focus{
     color: rgb(158, 158, 158);
 }
 
+
+
+/* THIS SECTION IS FOR HR */
 .first-hr{
     border: solid  rgb(27, 65, 114) 4px;
   
@@ -42,30 +91,14 @@ textarea:focus{
 .third-hr{
     border: solid black 2px;
 }
+/* THIS IS THE END OF THE HR */
+
+
+
 
 .first-leg{
     text-align: left;
     font-size: 30px;
-}
-
-.first-field{
-    text-align: left;
-    border: hidden;
- 
-}
-.second-field{
-    border: hidden;
-    text-align: left;
-}
-
-.top-half-inputs{
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: rgb(230, 228, 228);
 }
 
 select{
@@ -84,7 +117,9 @@ select{
 body {
     text-align: center;
     font-size: 20px;
-  
+    margin: 0 auto;
+    max-width: 768px;
+
 }
 
 .news{
@@ -125,16 +160,44 @@ body {
 
 
 
-/* SELECTORS */
 
 
-
-
-/* MEDIA QUERIES */
+/*------------ MEDIA QUERY ---------*/
 
 @media (min-width: 768px){
+.contact-info .flex-pair{
+    flex-direction: row;
+    }
+
+select .contact-info input{
+    flex-grow: 1;
+    flex-basis: 75%;
+}
+
+.contact-info label{
+    flex-basis: 25%;
+    height: 50px;
+    margin: auto 0;
+}
+
+#zip{
+    max-width: 25%;
+}
+
+label .gray-p{
+    flex-basis: 25%;
+}
 
 
 
+select{
+    margin-bottom: 10px;
+}
+
+input[id="zip"]{
+    margin-top: 10px;
    
+}
+
+
 }
