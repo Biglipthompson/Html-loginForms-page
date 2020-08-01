@@ -1,135 +1,131 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+<title>Techdegree Project 3</title>
+</head>
 
-        <title>Techdegree Project 3</title>
-        </head>
+<body>
 
-        <body>
+<h1 class="first-header">THE CODE REVIEW</h1>
+<h2 class="h2">Sign up for our newsletter</h2>
+<p class="gray-p">Get the latest news on how your code is doing right in your inbox.</p>
 
+<hr class="first-hr">
+<hr class="second-hr">
 
-
-        <h1 class="first-header">THE CODE REVIEW</h1>
-        <div class="padding">
-        <h2 class="h2">Sign up for our newsletter</h2>
-        <p class="gray-p">Get the latest news on how your code is doing right in your inbox.</p>
-
-        <hr class="first-hr">
-        <hr class="second-hr">
-
-                            <!-- BEGINNING OF THE FORM -->
+                    <!-- BEGINNING OF THE FORM -->
 
 
-        <form action="index.html" method="post">
+<form action="index.html" method="post">
 
-        <fieldset class="contact-info">
-        <legend class="first-leg">Contact Information</legend>
-
-
-        <div class="flex-pair">
-        <label for="name" class="gray-p">Full Name</label>
-        <input type="text" id="name" name="user_name" placeholder="Required" class="required top-half-inputs" required><br>
-        </div>
-
-        <div class="flex-pair">
-        <label for="email" class="gray-p">Email Address</label>
-        <input type="email" id="email" name="user_email" placeholder="Required" class="required top-half-inputs" required><br>
-        </div>
-
-        <div class="flex-pair">
-        <label for="phone" class="gray-p">Phone Number</label>
-        <input type="tel" id="phone" name="phone" class="top-half-inputs"><br>
-        </div>
+<fieldset class="contact-info">
+<legend class="first-leg">Contact Information</legend>
 
 
-        <div class="flex-pair">
-        <label for="text" class="gray-p">Street Address</label>
-        <input type="address" id="text" name="stree_address" class="top-half-inputs"><br>
-        </div>
+<div class="flex-pair">
+<label for="name" class="gray-p">Full Name</label>
+<input type="text" id="name" name="user_name" placeholder="Required" class="required top-half-inputs" required><br>
+</div>
+
+<div class="flex-pair">
+<label for="email" class="gray-p">Email Address</label>
+<input type="email" id="email" name="user_email" placeholder="Required" class="required top-half-inputs" required><br>
+</div>
+
+<div class="flex-pair">
+<label for="phone" class="gray-p">Phone Number</label>
+<input type="tel" id="phone" name="phone" class="top-half-inputs phone" placeholder="(828)123-4567" required><br>
+</div>
 
 
-        <div class="flex-pair">
-        <label for="city" class="gray-p">City</label>
-        <input type="city" id="city" name="city" class="top-half-inputs"><br>
-        </div>
-
-        <div class="flex-pair">
-        <label for="state" class="gray-p">State</label>
-        <select id="state" name= user_state class="gray-p top-half-inputs">
-        <option value="AL">Alabama</option>
-        <option value="AK">Alaska</option>
-        <option value="AZ">Arizona</option>
-        </select>
-        </div>
-
-        <div class="flex-pair">
-        <label for="zip" class="gray-p">Zip Code</label>
-        <input type="text" id="zip" name="text" class="zip">
-        </div>
-        </fieldset>
-
-        <!-- -------------------------END OF FIRST FIELDSET ------------------>
+<div class="flex-pair">
+<label for="address" class="gray-p">Street Address</label>
+<input type="text" id="address" name="street_address" class="top-half-inputs address" placeholder="123 Green Street"><br>
+</div>
 
 
-        <hr class="third-hr">
+<div class="flex-pair">
+<label for="city" class="gray-p">City</label>
+<input type="text" id="city" name="places" class="top-half-inputs charlotte" placeholder="charlotte"><br>
+</div>
+
+<div class="flex-pair">
+<label for="state" class="gray-p">State</label>
+<select id="state" name= user_state class="gray-p top-half-inputs">
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+</select>
+</div>
+
+<div class="flex-pair">
+<label for="zip" class="gray-p">Zip Code</label>
+<input type="text" id="zip" name="text" class="zip code" placeholder="28352">
+</div>
+</fieldset>
 
 
-        <!--------------------------- SECOND FIELDSET----------------------- -->
-
-        <fieldset class="newsletter">
-        <h2 class="news">Newsletter</h2>
-
-        <p> Select the letters you would like to recieve.</p>
-
-        <div>
-        <input type="checkbox"  id="html_news">
-        <label for="html_news">HTML news</label>
-        </div>
-
-        <div>
-        <input type="checkbox" name="css_news" id="css_news">
-        <label for="css_news">CSS news</label>
-        </div>
 
 
-        <div>
-        <input type="checkbox" id="javascript_news" name="javascript_news" >
-        <label for="javascript_news">JavaScript news</label>
-        </div>
-
-        <p class="news-form">Newsletter Format</p>
+<hr class="third-hr">
 
 
-        <div>
-        <input type="checkbox" name="html">
-        <label for="html">HTML</label>
-        </div>
 
 
-        <div>
-        <input type="checkbox" name="plain_text">
-        <label for="plain_text">Plain text</label>
-        </div>
- 
-        
-        <div class="other">
-        <label for="other-topics" class="other-t">Other topics you'd like to hear about</label>
-        </div>
-        <br>
+<fieldset class="newsletter">
+<legend class="news">Newsletter</legend>
 
-        <textarea id="bio" name="user_bio" class="text closing-p"></textarea><br>
-        <button type="submit" class="submit">Sign up</button>
-        </fieldset> 
-        </form>
+<p> Select the letters you would like to recieve.</p>
 
-                                <!-- END OF THE FORM -->
+<div>
+<input type="checkbox"  id="html_news" name="html-news">
+<label for="html_news">HTML news</label>
+</div>
 
-        <footer>
-        <p class="gray-p">Copyright The Code Review</p>
-        </footer>
-        </body>
-        </html>
+<div>
+<input type="checkbox" name="css_news" id="css_news">
+<label for="css_news">CSS news</label>
+</div>
+
+
+<div>
+<input type="checkbox" id="javascript_news" name="javascript_news" >
+<label for="javascript_news">JavaScript news</label>
+</div>
+
+<p class="news-form">Newsletter Format</p>
+
+
+<div>
+<input type="radio" name="html" id="html">
+<label for="html">HTML</label>
+</div>
+
+
+<div>
+<input type="radio" name="html" id="plain_text">
+<label for="plain_text">Plain text</label>
+</div>
+
+
+<div class="other">
+<label class="other-t">Other topics you'd like to hear about</label>
+</div>
+<br>
+
+<textarea id="bio" name="user_bio" class="text closing-p"></textarea><br>
+<button type="submit" class="submit">Sign up</button>
+</fieldset> 
+</form>
+
+                  
+
+<footer>
+<p class="gray-p">Copyright The Code Review</p>
+</footer>
+</body>
+</html>

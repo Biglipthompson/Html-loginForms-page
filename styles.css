@@ -71,9 +71,29 @@ label[for="zip"]{
     text-align: right;
     } 
 
+.phone{
+    text-align: right;
+}
+
+.address{
+    text-align: right;
+}
+
+.charlotte{
+    text-align: right;
+}
+
+.code{
+    text-align: right;
+}
+
 input:focus,
-textarea:focus{
+textarea:focus,
+select:focus {
+    background-color: skyblue;
+    transition: 1s;
     border-color: rgb(27, 65, 114);
+    
 }
 
 .gray-p{
