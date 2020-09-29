@@ -181,7 +181,9 @@ margin-top: 15px;
     border-radius: 8px;
     width: 100%;
     margin-top: 20px;
+    transition-duration: 1s; 
 }
+
 
 
 
