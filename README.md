@@ -1,3 +1,1 @@
-# TechDegree-Project-3
- teamtreehouse project 3
-login form 
+This is a basic login form to practice my skills with using HTML forms.
